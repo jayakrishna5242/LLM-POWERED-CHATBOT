@@ -41,7 +41,7 @@ Welcome to the Llama-3 Chatbot project! This chatbot allows you to interact with
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/anushkaspatil/llama3-chatbot.git
+    git clone https://github.com/jayakrishna5242/LLM-POWERED-CHATBOT
     cd llama3-chatbot
     ```
 
