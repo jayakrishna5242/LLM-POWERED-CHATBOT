@@ -1,13 +1,13 @@
 /* General Body Styling */
 body {
     background-color: black;
-    
+
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+
   /* Square Styling for the Canvas */
   .square {
     position: relative;
@@ -18,7 +18,7 @@ body {
     align-items: center;
     margin: 0 auto;
   }
-  
+
   .square span {
     position: absolute;
     top: 0;
@@ -31,7 +31,7 @@ body {
     transition: 0.5s;
     /* animation: rotate 6s linear infinite; */
   }
-  
+
   @keyframes rotate {
     0% {
       transform: rotate(0deg);
@@ -39,9 +39,9 @@ body {
     100% {
       transform: rotate(360deg);
     }
-   
+
   }
-  
+
   /* Input Field Styling */
   #TextInput {
     background-color: #181818a8;
@@ -52,7 +52,7 @@ body {
     padding: 3px 0px 3px 20px;
     margin: 0px 20%;
   }
-  
+
   .input-field {
     background-color: transparent;
     border: none;
@@ -61,7 +61,7 @@ body {
     color: white;
     font-family: cursive;
   }
-  
+
   /* Button Glow Effect Styling */
   .glow-on-hover {
     width: 35px;
@@ -77,7 +77,7 @@ body {
     padding: 0px;
     margin-left: 10px;
   }
-  
+
   .glow-on-hover:before {
     content: '';
     position: absolute;
@@ -93,22 +93,22 @@ body {
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
   }
-  
+
   .glow-on-hover:hover:before {
     opacity: 1;
   }
-  
+
   @keyframes glowing {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
   }
-  
+
   /* Chat Box Styling */
   .chat-canvas {
     background-color: #191919;
   }
-  
+
   .receiver_message {
     padding: 8px;
     border: 2px solid cyan;
@@ -116,7 +116,7 @@ body {
     color: white;
     background-color: #0dcaf014;
   }
-  
+
   .sender_message {
     padding: 8px;
     border: 1px solid #0045ff;
@@ -124,11 +124,11 @@ body {
     color: white;
     background-color: #0045ff;
   }
-  
+
   .width-size {
     max-width: 80%;
   }
-  
+
   /* SVG Animation Styling */
   .svg-frame {
     position: relative;
@@ -139,7 +139,7 @@ body {
     justify-content: center;
     align-items: center;
   }
-  
+
   svg {
     position: absolute;
     transition: 0.5s;
@@ -149,8 +149,8 @@ body {
     fill: none;
     filter: drop-shadow(0 0 12px #00aaff);
   }
-  
-  
+
+
   @keyframes rotate1 {
     0% {
       transform: rotate(0deg);
@@ -166,12 +166,12 @@ body {
   }
   #center,#outter-center,#center-lines{
     transform-origin: center;
-    
+
     animation: rotate1 4s linear infinite;
 
-  
+
   }
-   
+
   /* Initialization Text Styling */
   #init-text {
     position: absolute;
