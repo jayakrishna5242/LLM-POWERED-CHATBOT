@@ -160,17 +160,7 @@ body {
       transform: rotate(-360deg);
     }
   }
-  #big-centro,    #bottom-dots,  #squares, #top-dots {
-    transform-origin: center;
-    animation: rotate 4s linear infinite;
-  }
-  #center,#outter-center,#center-lines{
-    transform-origin: center;
 
-    animation: rotate1 4s linear infinite;
-
-
-  }
 
   /* Initialization Text Styling */
   #init-text {
