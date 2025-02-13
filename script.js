@@ -47,13 +47,18 @@ function typeEffect(response, botMessage, chatHistory) {
     let index = 0;
 
     function type() {
-const elements = document.querySelectorAll('#big-centro, #outter1, #solo-lines, #center, #outter-center, #bottom-dots, #center-lines, #squares, #top-dots');
+ const elements = document.querySelectorAll('#big-centro,  #bottom-dots,  #squares, #top-dots');
 
     elements.forEach(element => {
         element.style.transformOrigin = 'center';
         element.style.animation = 'rotate 4s linear infinite';
     });
+    const elements1 = document.querySelectorAll(' #center,  #outter-center, #center-lines');
 
+    elements1.forEach(element => {
+        element.style.transformOrigin = 'center';
+        element.style.animation = 'rotate1 4s linear infinite';
+    });
         if (index < response.length) {
 
            document.getElementById('')
@@ -80,6 +85,7 @@ document.getElementById('StopBtn').addEventListener('click', function () {
     const botMessages = document.querySelectorAll('.bot-message');
     if (botMessages.length > 0) {
         botMessages[botMessages.length - 1].innerText += " [Response Stopped]";
+        return;
     }
 });
 
